@@ -1,9 +1,22 @@
-import "./App.css";
+import { useState } from "react";
+import Button from "./components/Button";
 
 function App() {
+  const [color, setColor] = useState("#333");
+
   return (
     <>
-      <h1 className="bg-red-500">Code with Mohaimin</h1>
+      <div
+        className="h-[100vh] relative w-full"
+        style={{ backgroundColor: color }}
+      >
+        <div className="flex flex-col gap-[15px] absolute left-0 top-1/2 transform -translate-y-1/2 pl-[30px]">
+          <Button colorName="red" bgColor={() => setColor("#ff7d7d")} />
+          <Button colorName="blue" bgColor={() => setColor("#7474eb")} />
+          <Button colorName="teal" bgColor={() => setColor("#40c5b8")} />
+          <Button colorName="olive" bgColor={() => setColor("#baba05")} />
+        </div>
+      </div>
     </>
   );
 }
