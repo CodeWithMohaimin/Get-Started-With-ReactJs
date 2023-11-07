@@ -1,6 +1,6 @@
 # This is a Project Based Learning repo with React Js
 
-## 02Counter
+## 02 Counter
 
 ![Project 02](./projectsImages/project02.png)
 
@@ -8,6 +8,10 @@
 
 ![Project 02](./projectsImages/project03.png)
 
-## 03 Props Game
+## 04 BG Changer
 
 ![Project 02](./projectsImages/project04.png)
+
+## 05 Password Generator
+
+![Project 02](./projectsImages/project05.png)
