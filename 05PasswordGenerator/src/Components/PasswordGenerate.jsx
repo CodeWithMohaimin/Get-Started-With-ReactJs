@@ -35,7 +35,7 @@ const PasswordGenerate = () => {
   // Copy Password Function
   const copyPasswordToClipboard = () => {
     passwordRef.current?.select();
-    passwordRef.current?.setSelectionRange(0, 19);
+    // passwordRef.current?.setSelectionRange(0, 19);
     window.navigator.clipboard.writeText(password);
   };
 
